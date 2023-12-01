@@ -33,3 +33,9 @@ function search(str) {
 suggestions.innerHTML = temp;
 }
 
+document.addEventListener("click", Usesuggestion);
+
+function Usesuggestion(){
+	input.value = this.innerHTML;
+	
+}
